@@ -4,7 +4,7 @@ const RESET = "\u001b[39m";
 
 let hasFailingTest = false;
 
-function test(description, callback) {
+function test(description: string, callback: Function) {
   try {
     process.stdout.write(` - ${description}`);
     callback();
@@ -18,7 +18,7 @@ function test(description, callback) {
   }
 }
 
-function handleExit(code) {
+function handleExit(code: number) {
   if (code !== 0) {
     return;
   }
