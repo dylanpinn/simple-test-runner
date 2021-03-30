@@ -1,12 +1,28 @@
 {
   "name": "simple-test-runner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple test runnner",
   "main": "index.js",
   "scripts": {
     "test": "node runner.test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanpinn/simple-test-runner.git"
+  },
+  "author": "Dylan Pinn <me@dylanpinn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylanpinn/simple-test-runner/issues"
+  },
+  "homepage": "https://github.com/dylanpinn/simple-test-runner#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "simple-git-hooks": "^2.2.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx pretty-quick --staged"
+  }
 }
