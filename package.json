@@ -1,8 +1,8 @@
 {
-  "name": "simple-test-runner",
-  "version": "1.0.0",
+  "name": "@dylan.pinn/simple-test-runner",
+  "version": "0.1.0",
   "description": "Simple test runnner",
-  "main": "index.js",
+  "main": "runner.js",
   "scripts": {
     "test": "node runner.test.js"
   },
