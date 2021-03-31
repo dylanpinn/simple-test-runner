@@ -1,15 +1,16 @@
 {
   "name": "@dylan.pinn/simple-test-runner",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Simple test runnner",
   "main": "runner.js",
   "scripts": {
-    "test": "node runner.test.js"
+    "test": "node runner.test.js",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylanpinn/simple-test-runner.git"
+    "url": "https://github.com/dylanpinn/simple-test-runner.git"
   },
   "author": "Dylan Pinn <me@dylanpinn.com>",
   "license": "MIT",
@@ -23,7 +24,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
-    "simple-git-hooks": "^2.2.0"
+    "simple-git-hooks": "^2.2.0",
+    "semantic-release": "^17.4.2"
   },
   "simple-git-hooks": {
     "commit-msg": "npx --no-install commitlint --edit $1",
